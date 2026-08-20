@@ -110,6 +110,8 @@ tools/trekscii.py      reference Python implementation, handy for tweaking outpu
 tools/star-trek-ascii-compendium.txt
                        the original compendium the art was split out of
 docs/screenshot.png    the README screenshot
+docs/social-preview.png
+                       1280x640 card for the repo's GitHub social preview
 ```
 
 ## Credits
@@ -130,6 +132,6 @@ The trekscii code and packaging — `src/`, `tools/`, `install.sh`,
 you like with them.
 
 The ASCII art in `art/`, the original compendium in `tools/`, and the art shown
-in `docs/screenshot.png` are **not** covered by that license. They are
+in the `docs/` images are **not** covered by that license. They are
 third-party works, included as-is, with no rights granted or claimed by this
 project. See Credits above.
