@@ -4,23 +4,7 @@ Random colorized Star Trek ASCII art for your login shell. One ship, station, or
 insignia — in a randomly chosen faction color scheme — every time you open a
 terminal.
 
-```
-────────────────────────────────────────────────────────
-  Galaxy Class (USS Enterprise NCC-1701-D)
-────────────────────────────────────────────────────────
-                           ___
-              _____.------'---`------._____
-    ____.----'  '' ' "" "  """  " "" ` ``  `----.____
- =======================================================
-           `---.___``` ` "" " "" ' '''___.---'
-          .---.    `------.___.------'    .---.
-         ((___))        \``|_|''/        ((___))
-          `-.-'        __>\|o|/<__        `-.-'
-            |        .'.'__|_|__`.`.        |
-             `------|_.-' .---. `-._|------'
-                     `-._ `---' _.-'
-                         `-----'
-```
+![trekscii in a fresh terminal: a Ferengi Marauder drawn in Ferengi gold](docs/screenshot.png)
 
 Written in C, no dependencies, runs in about a millisecond.
 
@@ -125,6 +109,7 @@ Makefile               plain build/install targets
 tools/trekscii.py      reference Python implementation, handy for tweaking output
 tools/star-trek-ascii-compendium.txt
                        the original compendium the art was split out of
+docs/screenshot.png    the README screenshot
 ```
 
 ## Credits
@@ -144,6 +129,7 @@ The trekscii code and packaging — `src/`, `tools/`, `install.sh`,
 `uninstall.sh`, `Makefile`, `README.md` — are [MIT licensed](LICENSE). Do what
 you like with them.
 
-The ASCII art in `art/` and the original compendium in `tools/` are **not**
-covered by that license. They are third-party works, included as-is, with no
-rights granted or claimed by this project. See Credits above.
+The ASCII art in `art/`, the original compendium in `tools/`, and the art shown
+in `docs/screenshot.png` are **not** covered by that license. They are
+third-party works, included as-is, with no rights granted or claimed by this
+project. See Credits above.
