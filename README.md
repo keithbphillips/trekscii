@@ -6,19 +6,31 @@ terminal.
 
 ```
 ────────────────────────────────────────────────────────
-  Galaxy Class U.S.S. Enterprise NCC-1701-D
+  Galaxy Class (USS Enterprise NCC-1701-D)
 ────────────────────────────────────────────────────────
-                            ______
-                     _____--   |  \-----_____
-   ...
+                           ___
+              _____.------'---`------._____
+    ____.----'  '' ' "" "  """  " "" ` ``  `----.____
+ =======================================================
+           `---.___``` ` "" " "" ' '''___.---'
+          .---.    `------.___.------'    .---.
+         ((___))        \``|_|''/        ((___))
+          `-.-'        __>\|o|/<__        `-.-'
+            |        .'.'__|_|__`.`.        |
+             `------|_.-' .---. `-._|------'
+                     `-._ `---' _.-'
+                         `-----'
 ```
 
 Written in C, no dependencies, runs in about a millisecond.
 
+Works on Linux and macOS, in zsh or bash. All you need to build it is a C
+compiler — `cc`, `gcc`, or `clang`, whichever you already have.
+
 ## Install
 
 ```sh
-git clone https://github.com/<you>/trekscii.git
+git clone https://github.com/keithbphillips/trekscii.git
 cd trekscii
 ./install.sh
 ```
